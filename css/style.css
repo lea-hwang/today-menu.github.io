@@ -1,0 +1,18 @@
+body {
+  background-color: #F1F2F6;
+}
+
+img {
+  max-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+#first-card {
+  width: 500px;
+}
+
+#second-card {
+  width: 700px;
+}
+`

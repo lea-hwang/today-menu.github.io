@@ -1,31 +1,60 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/windows,purescript,venv
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,purescript,venv
+# Created by https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode,windows
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos,visualstudiocode,windows
 
-### PureScript ###
-# Dependencies
-.psci_modules
-.spago
-bower_components
-node_modules
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
 
-# Generated files
-.psci
-output
+# Icon must end with two \r
+Icon
 
-### venv ###
-# Virtualenv
-# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
-.Python
-[Bb]in
-[Ii]nclude
-[Ll]ib
-[Ll]ib64
-[Ll]ocal
-[Ss]cripts
-pyvenv.cfg
-.venv
-pip-selfcheck.json
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+### macOS Patch ###
+# iCloud generated files
+*.icloud
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# Support for Project snippet scope
 
 ### Windows ###
 # Windows thumbnail cache files
@@ -53,4 +82,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,purescript,venv
+# End of https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode,windows

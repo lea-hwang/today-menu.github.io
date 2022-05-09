@@ -1,5 +1,5 @@
 {
-  "rain":[
+  "rain": [
     {
 			"name":"치킨",
       "url":"img/chicken.jpg"
@@ -25,7 +25,7 @@
       "url":"img/udon.jpg"
     }
   ],
-  "snow":[
+  "snow": [
     {
 			"name":"치킨",
       "url":"img/chicken.jpg"
@@ -51,7 +51,7 @@
       "url":"img/pasta.jpg"
     }
   ],
-  "clear":[
+  "clear": [
     {
 			"name":"치킨",
       "url":"img/chicken.jpg"
@@ -77,7 +77,7 @@
       "url":"img/beef_brisket.jpg"
     }
   ],
-  "clouds":[
+  "clouds": [
     {
 			"name":"치킨",
       "url":"img/chicken.jpg"
